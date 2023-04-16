@@ -165,9 +165,16 @@ img {
 
 /* hero */
 .hero-section {
-  background-color: var(--main-text-color);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: url(../images/hero-section/Dark-bg.png), 
+  url(../images/hero-section/people-office\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 .hero-head {
   font-weight: 700;
@@ -180,7 +187,7 @@ img {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -326,7 +333,6 @@ margin-bottom: 8px;
   justify-content: center;
   gap: 24px;
   flex-wrap: nowrap;
-  padding: 86px 0 0 0;
   margin-bottom: 72px;
 }
 .filters-btn {
