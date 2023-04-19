@@ -129,7 +129,6 @@ img {
   margin-right: 332px;
 }
 
-
 .header-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -137,7 +136,6 @@ img {
   padding: 24px 0;
   display: block;
 }
-
 
 .header-link:hover {
   color: var(--accent-text-color);
@@ -173,11 +171,16 @@ img {
   margin-right: auto;
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-section/Dark-bg.png),
-    url(../images/hero-section/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-section/Dark-bg.png),
+    url(../images/hero-section/people-office\ 1.jpg);
+    
 }
 .hero-head {
   font-weight: 700;
@@ -291,7 +294,6 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-
 }
 .team-head {
   text-align: center;
@@ -302,7 +304,7 @@ img {
 }
 
 .team-person {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 .social-list {
@@ -341,6 +343,7 @@ img {
 }
 
 .customers-title {
+  line-height: 1.1;
   margin-bottom: 72px;
 }
 .customers-list {
@@ -348,34 +351,31 @@ img {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  
-
 }
 
 .customers-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width:168px;
-  
+  width: 168px;
+
   height: 88px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  border: 1px solid #8E8F99;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
-  color: #8E8F99
+  color: #8e8f99;
 }
 
-.customers-link:hover, .customers-link:focus {
-  color:var(--accent-text-color);
+.customers-link:hover,
+.customers-link:focus {
+  color: var(--accent-text-color);
   border: 1px solid var(--accent-text-color);
 }
 
 .customer-icon {
   fill: currentColor;
 }
-
-
 
 /* footer */
 .footer-main {
