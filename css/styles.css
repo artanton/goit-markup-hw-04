@@ -178,9 +178,8 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-section/Dark-bg.jpg),
-    url(../images/hero-section/people-office\ 1.jpg);
     
+    url(../images/hero-section/people-office.jpg);
 }
 .hero-head {
   font-weight: 700;
@@ -352,7 +351,7 @@ img {
   align-items: center;
   gap: 24px;
 }
-.customers-item{
+.customers-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
 }
@@ -360,7 +359,6 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 
   height: 88px;
   border: 1px solid #8e8f99;
@@ -412,7 +410,7 @@ img {
 }
 
 .footer-media {
-    width: 208px;
+  width: 208px;
   display: block;
 }
 .social-media-title {
@@ -420,7 +418,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
@@ -500,7 +498,7 @@ img {
   border-top: none;
 }
 
-.portfolio-row-link{
+.portfolio-row-link {
   display: block;
 }
 
